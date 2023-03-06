@@ -1,0 +1,20 @@
+<div class="container">
+  <figure>
+    <blockquote class="blockquote mt-4 your_question">
+      <h2><%=params[:statement]%></h2>
+    </blockquote>
+    <figcaption class="blockquote-footer your_question">
+      <cite title="Source Title">You</cite>
+    </figcaption>
+  </figure>
+    <blockquote class="blockquote mt-4 coach_answer">
+      <h2><%=@answer%></h2>
+    </blockquote>
+    <figcaption class="blockquote-footer coach_answer">
+      <cite title="Source Title">Your coach</cite>
+    </figcaption>
+  </figure>
+   <div class="mt-5">
+    <%= link_to "Ask again", ask_path %>
+  </div>
+</div>

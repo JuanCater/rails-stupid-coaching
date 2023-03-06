@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ .coach_answer {
+  background-color: rgb(243, 243, 166);
+ }
+
+ .your_question{
+  background-color: rgb(209, 224, 236);
+ }
